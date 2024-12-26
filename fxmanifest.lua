@@ -6,12 +6,12 @@ description 'Applique la tête du joueur à un modèle spécifique'
 version '1.0.0'
 
 client_scripts {
-    'client.lua',
+    'client/main.lua',
 }
 
 server_scripts {
     '@mysql-async/lib/MySQL.lua', -- Pour la gestion de la base de données
-    'server.lua',
+    'server/main.lua',
 }
 
 dependencies {
